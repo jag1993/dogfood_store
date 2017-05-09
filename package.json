@@ -1,0 +1,26 @@
+{
+  "name": "dogfood_store",
+  "version": "1.0.0",
+  "description": "A prototype for a dog food store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jag1993/dogfood_store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jag1993/dogfood_store/issues"
+  },
+  "homepage": "https://github.com/jag1993/dogfood_store#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-dustjs": "^1.1.1",
+    "mongojs": "^2.4.0"
+  }
+}

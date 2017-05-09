@@ -1,0 +1,24 @@
+<form action='/submit' method='POST'> 
+	<label for='user'>User</label>
+ 	<input type='text' name='user' id='user'>
+ 	<label for='product'>Product</label>
+ 	<input type='text' name='product' id='product'>
+ 	<label for='price'>Price</label>
+ 	<input type='text' name='price' id='price'>
+ 	<label for='stock'>Stock</label>
+ 	<input type='text' name='stock' id='stock'>
+ <button type='submit'>Submit</button>
+ </form>
+
+ <div>
+ 	<table>
+ 		{#userData}
+ 		<tr>
+ 			<td>{user}</td>
+ 			<td>{product}</td>
+ 			<td>{price}</td>
+ 			<td>{stock}</td>
+ 		</tr>
+ 		{/userData}
+ 	</table>
+ </div>
